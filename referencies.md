@@ -1,5 +1,6 @@
 https://davemateer.com/2018/01/25/Jekyll-and-Docker
 
+https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
 
 cd c:/temp/myBlog
 
