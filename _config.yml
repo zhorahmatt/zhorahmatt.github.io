@@ -1,34 +1,26 @@
-title: DTC Static Site
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-email: rahmat@docotel.com
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
 
-description: simple static page using jekyll
+# Setup
+title:            '4'
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-baseurl: ''
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-url: ''
+paginate:         5
 
-twitter_username: ''
+# Custom vars
+version:          2.1.0
 
-github_username: ''
-
-markdown: kramdown
-
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.15.2"
-
-plugins:
- - jekyll-feed
- - jekyll-include-cache
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+github:
+  repo:           https://github.com/poole/hyde
