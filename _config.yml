@@ -1,18 +1,25 @@
 title: DTC Static Site
+
 email: rahmat@docotel.com
+
 description: simple static page using jekyll
+
 baseurl: ''
+
 url: ''
+
 twitter_username: ''
+
 github_username: ''
+
 markdown: kramdown
 
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+ - jekyll-feed
+ - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
