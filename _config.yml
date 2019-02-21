@@ -1,5 +1,13 @@
 title: Rahmat Hidayat
+
 description: '@rahmathidayat____'
+
 show_downloads: true
+
 google_analytics:
+
 theme: jekyll-theme-cayman
+
+paginate: 5
+
+permalink: pretty
