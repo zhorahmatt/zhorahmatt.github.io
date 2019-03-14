@@ -10,7 +10,7 @@ run Jekyll
 docker run --rm -v=%cd%:/srv/jekyll -it jekyll/jekyll /bin/bash
 
 serving site locally
-docker run --rm -v=%cd%:/srv/jekyll -p 4000:4000 -it jekyll/jekyll /bin/bash
+docker run --rm -v=pwd:/srv/jekyll -p 4000:4000 -it jekyll/jekyll /bin/bash
 
 serving jekyll on port 4000
 jekyll serve --force_polling
